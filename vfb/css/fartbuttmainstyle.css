@@ -23,14 +23,13 @@ body{
     transform-origin: top;
     transform-origin: center;
     transform-box: fill-box;
-
 }
 
 #poke-me {
-
     padding-top: 75px;
     font-size: 15pt;
 }
+
 p{
     color: chartreuse;
     font-size: 20pt;
@@ -43,6 +42,7 @@ p{
     font-size: 40pt;
     margin: 0;
 }
+
 .booty{
     width:30vw;
     height:auto;
@@ -67,7 +67,14 @@ p{
     position: absolute;
     z-index: -1;
     height:50vh;
-    width:100vw;
-    
-    
+    width:100vw; 
+}
+
+@media only screen and (max-width: 768px) {
+
+    .booty{
+        width:80vw;
+        height:auto;
+    }
+
 }

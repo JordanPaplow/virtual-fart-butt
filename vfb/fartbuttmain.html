@@ -7,8 +7,8 @@
     <meta name="author" content="Jordan Paplow">
     <meta property="og:title" content="Virtual Fart-Butt">
     <meta property="og:description" content="Interactive Fart-Butt Experience">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:image" content="https://jordanpaplow.github.io/virtual-fart-butt/vfb/images/twittercard.jpg">
+    <meta property="og:url" content="https://jordanpaplow.github.io/virtual-fart-butt/vfb/fartbuttmain.html">
     <meta name="twitter:card" content="summary_large_image">
     <title>Virtual Fart-Butt</title>
     <link rel="stylesheet" href="css/fartbuttmainstyle.css" />
@@ -16,40 +16,35 @@
 </head>
 <body>
 
-<audio autoplay loop>
-    <source src="audio/fart-butt-theme.mp3" type="audio/mpeg">
-</audio>
+    <audio autoplay loop>
+        <source src="audio/fart-butt-theme.mp3" type="audio/mpeg">
+    </audio>
 
+    <p id="fartbutt">VIRTUAL FART-BUTT</p>
 
+    <div class="buttlord">
+        <img onmouseover="PlaySound('fart-butt')" 
+        onmouseout="StopSound('fart-butt')" src = "images/fart-butt.png" class="booty">
+    </div>
 
-<p id="fartbutt">VIRTUAL FART-BUTT</p>
+    <audio id="fart-butt">
+        <source src="audio/fart.mp3"></source>
+    </audio>
 
-<div class="buttlord">
-    <img onmouseover="PlaySound('fart-butt')" 
-    onmouseout="StopSound('fart-butt')" src = "images/fart-butt.png" class="booty">
-</div>
+    <img src= "images/laser-grid.png" id="lasergrid">
 
+    <script>
+        function PlaySound(soundobj) {
+        var thissound=document.getElementById(soundobj);
+        thissound.play();
+    }
 
-<audio id="fart-butt">
-    <source src="audio/fart.mp3"></source>
-</audio>
-
-<img src= "images/laser-grid.png" id="lasergrid">
-
-
-
-<script>
-    function PlaySound(soundobj) {
-    var thissound=document.getElementById(soundobj);
-    thissound.play();
-}
-
-function StopSound(soundobj) {
-    var thissound=document.getElementById(soundobj);
-    thissound.pause();
-    thissound.currentTime = 0;
-}
-</script>
+    function StopSound(soundobj) {
+        var thissound=document.getElementById(soundobj);
+        thissound.pause();
+        thissound.currentTime = 0;
+    }
+    </script>
     
 </body>
 </html>
