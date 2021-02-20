@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: black;
+    color:rgb(142, 255, 37);
+    font-family: 'IBM Plex Mono', monospace;   
+}
+
+.buttlord {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    animation: butt 3s ease-in-out infinite alternate;
+    transform-origin: top;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+#poke-me {
+
+    padding-top: 75px;
+    font-size: 15pt;
+}
+p{
+    color: chartreuse;
+    font-size: 20pt;
+    text-align: center;
+}
+
+#fartbutt{
+    padding-top: 10vh;
+    color:yellow;
+    font-size: 40pt;
+    margin: 0;
+}
+.booty{
+    width:30vw;
+    height:auto;
+}
+
+.booty { transition: all .2s ease-in-out; }
+.booty:hover { transform: scale(1.1); }
+
+@keyframes butt {
+
+    from{
+    transform: translateY(0%)
+    }
+
+    to{
+    transform: translateY(10%)
+    }
+
+}
+
+#lasergrid{
+    position: absolute;
+    z-index: -1;
+    height:50vh;
+    width:100vw;
+    
+    
+}
