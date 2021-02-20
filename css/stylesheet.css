@@ -39,7 +39,8 @@ a:visited {
 .container .typer {
     color: chartreuse;
     line-height: 1.75;
-    text-align: center;
+    font-size: 1em;
+    text-align: left;
     padding-top: 15px;
 }
 
