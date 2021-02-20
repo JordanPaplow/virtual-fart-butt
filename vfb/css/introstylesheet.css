@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: black;
+    color:rgb(142, 255, 37);
+    font-family: 'IBM Plex Mono', monospace;   
+}
+
+a{
+    color: chartreuse;
+}
+
+a:visited {
+    color: chartreuse
+}
+
+#introbooty{
+    display: block;
+    padding-top:10vh;
+    margin:auto;
+    height:50vh;
+    width:auto;
+}
+
+.container {
+    width: 40vw;
+    min-height: 120px;
+    margin: 100px auto 0;
+}
+
+.container .typer {
+    color: chartreuse;
+    line-height: 1.75;
+    font-size: 1em;
+    text-align: left;
+    padding-top: 15px;
+}
+
+#enterlink{
+    padding-top:5vh;
+    text-align: center;
+    opacity: 0.0;
+    animation: fadein .5s 43s ease-in-out infinite
+}
+
+@keyframes fadein {
+    0% {opacity:.5;}
+    100% {opacity:1;}
+}
+
+@media only screen and (max-width: 768px) {
+
+    #introbooty{
+        display: block;
+        padding-top:5vh;
+        margin:auto;
+        height:25vh;
+        width:auto;
+    }
+    
+    .container {
+        width: 75vw;
+        min-height: 120px;
+        margin: 2vh auto 0;
+    }  
+
+}

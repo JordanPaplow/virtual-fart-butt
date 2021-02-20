@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: black;
+    color:rgb(142, 255, 37);
+    font-family: 'IBM Plex Mono', monospace;    
+}
+
+
+h1{
+    text-align: center;
+    margin-top:45vh;
+    font-size: 6em;
+}
+
+#securotron{
+    color:red;
+    opacity: 0.0;
+    animation: fadein .001s ease-in infinite
+}
+
+@keyframes fadein {
+    0% {opacity:.75;}
+    100% {opacity:1;}
+}
+
+@media only screen and (max-width: 768px) {
+
+h1{
+    text-align: center;
+    margin-top:33vh;
+    font-size: 6em;
+}
+    
+
+}
