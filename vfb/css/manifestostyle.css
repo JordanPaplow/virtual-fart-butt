@@ -64,8 +64,8 @@ body{
 
 p{
     color: chartreuse;
-    font-size: 20pt;
-    text-align: center;
+    font-size: 1em;
+    text-align: left;
 }
 
 
@@ -95,6 +95,34 @@ p{
     z-index: -1;
     height:100vh;
     width:100vw;
+}
+
+.container{
+  display: block;
+  margin:10vh auto;
+  border-color: rgb(142, 255, 37);
+  border-style: double;
+  background-color: rgb(0, 0, 0);
+  width:50vw;
+  height:60vh;
+  padding:50px;
+  line-height: 1.75em;
+  overflow-y: scroll;
+}
+
+h1{
+  font-family:'Press Start 2P', cursive;
+  font-size: x-large;
+  text-align: center;
+  color:white;
+  
+}
+
+h2{
+  font-size: small;
+  text-align: center;
+  margin: 2vh;
+  color:yellow;
 }
 
 /*-------------Fart-Butt Text Effect---------------*/
