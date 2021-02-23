@@ -16,9 +16,6 @@
 </head>
 <body>
 
-    <audio autoplay loop>
-        <source src="audio/fart-butt-theme.mp3" type="audio/mpeg">
-    </audio>
 
     <div class="topnav">
         <a class="active" href="fartbuttmain.html">Home</a>
@@ -31,7 +28,6 @@
         VIRTUAL FART-BUTT
     </div>
     
-
     <div class="buttlord">
         <img onmouseover="PlaySound('fart-butt')" onclick="PlaySound('fart-butt')" 
         onmouseout="StopSound('fart-butt')" src = "images/fart-butt.png" class="booty">
@@ -42,19 +38,23 @@
     </audio>
 
     <img src= "images/grid.png" id="lasergrid">
+    
+    <div id="audio-control">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
 
-    <script>
-        function PlaySound(soundobj) {
-        var thissound=document.getElementById(soundobj);
-        thissound.play();
-    }
+    <div id="backgroundaudio">
+        <i class="icon-volume-up"></i>
+        <audio autoplay="true" hidden="true" loop="true" id="audio">
+         <source src="audio/fart-butt-theme.mp3" type="audio/mpeg"></source>
+         Your browser does not support the audio element.
+        </audio>
+    </div>
 
-    function StopSound(soundobj) {
-        var thissound=document.getElementById(soundobj);
-        thissound.pause();
-        thissound.currentTime = 0;
-    }
-    </script>
+    <script src="script/mainscript.js"></script>
+
     
 </body>
 </html>

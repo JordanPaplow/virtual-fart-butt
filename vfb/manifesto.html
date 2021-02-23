@@ -16,10 +16,6 @@
 </head>
 <body>
 
-    <audio autoplay loop>
-        <source src="audio/techno3.mp3" type="audio/mpeg">
-    </audio>
-
     <div class="topnav">
         <a href="fartbuttmain.html">Home</a>
         <a href="contact.html">Contact</a>
@@ -52,6 +48,22 @@
     </div>
 
     <img src= "images/grid.png" id="lasergrid">
+
+    <div id="audio-control">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <div id="backgroundaudio">
+        <i class="icon-volume-up"></i>
+        <audio autoplay="true" hidden="true" loop="true" id="audio">
+         <source src="audio/techno3.mp3" type="audio/mpeg"></source>
+         Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script src="script/mainscript.js"></script>
     
 </body>
 </html>

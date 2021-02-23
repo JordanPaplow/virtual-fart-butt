@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
@@ -26,7 +25,6 @@ body{
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -36,58 +34,20 @@ body{
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(179, 255, 0);
     color: black;
   }
   
-  /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #1f4e20;
     color: white;
   }
 
-.buttlord {
-    display: block;
-    text-align: center;
-    padding-top: 50px;
-    animation: butt 3s ease-in-out infinite alternate;
-    transform-origin: top;
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
-#poke-me {
-    padding-top: 75px;
-    font-size: 15pt;
-}
-
 p{
     color: chartreuse;
-    font-size: 1em;
-    text-align: left;
-}
-
-
-.booty{
-    width:30vw;
-    height:auto;
-}
-
-.booty { transition: all .2s ease-in-out; }
-.booty:hover { transform: scale(1.1); }
-
-@keyframes butt {
-
-    from{
-    transform: translateY(0%)
-    }
-
-    to{
-    transform: translateY(10%)
-    }
-
+    font-size: 20pt;
+    text-align: center;
 }
 
 #lasergrid{
@@ -98,111 +58,7 @@ p{
     width:100vw;
 }
 
-.box{
-  display: block;
-  margin:10vh auto;
-  border-color: rgb(142, 255, 37);
-  border-style: double;
-  background-color: rgb(0, 0, 0);
-  width:50vw;
-  height:60vh;
-  padding:50px;
-  line-height: 1.75em;
-  overflow-y: scroll;
-  
-}
-
-h1{
-  font-family:'Press Start 2P', cursive;
-  font-size: x-large;
-  text-align: center;
-  color:white;
-  
-}
-
-h2{
-  font-size: small;
-  text-align: center;
-  margin: 2vh;
-  color:yellow;
-}
-
-  input[type="text"],
-  input[type="email"],
-  input[type="number"],
-  select[name="features"] {
-    display: block;
-    box-sizing: border-box;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    padding: 0.7rem 0.5rem;
-    margin: 0.7rem 0rem;
-    border-radius: 5px;
-    border-color:darkgreen;
-    border-style: double; 
-  }
-
-  label[for="name"],
-  label[for="email"],
-  label[for="age"] {
-    font-size: 21px;
-  }
-  .almostlabel {
-    font-size: 21px;
-    padding: 3vh 0 3vh 0;
-    ;
-  }
-  .questions {
-    margin: 0 auto 0.5rem auto;
-    padding: 0.1rem;
-  }
-  .input-radio,
-  .input-checkbox {
-    /* display: inline-block; */
-    margin-right: 0.625rem;
-    margin-bottom: 1.4rem;
-    
-  }
-  select,
-  option,
-  #openfeedback {
-    color:white;
-    font-family:'IBM Plex Mono', monospace;  
-  }
-  textarea {
-    min-height: 120px;
-    width: 100%;
-    margin-top: 1rem;
-    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
-    resize: vertical;
-    background-color: black;
-    border-color: darkgreen;
-  }
-  .submit-button {
-      display: block;
-      width: 100%;
-      padding: 0.75rem;
-      background: black;
-      border-color: chartreuse;
-      color: white;
-      border-radius: 2px;
-      cursor:pointer;
-    }
-   
-  .submitcontainer{
-      margin-top: 10px;
-    }
-  .radiocontainer{
-        padding-bottom: 2vh;
-     }
-
-  ::placeholder {
-        color: white;
-        opacity: 1; 
-        font-family:'IBM Plex Mono', monospace;   
-    }
-
-    /*audio Controler------*/
+/*audio Controler------*/
 
 #audio-control {
   position: fixed;
@@ -287,6 +143,8 @@ z-index: 9999;
       height: 25px;
   }
 }
+
+/*-------------Fart-Butt Text Effect---------------*/
 
 .fartbutt {
     margin-top: 5vh;
@@ -470,11 +328,6 @@ z-index: 9999;
 
   @media only screen and (max-width: 768px) {
 
-    .booty{
-        margin-top: 5vh;
-        width:80vw;
-        height:auto;
-    }
 
     .fartbutt {
         margin-top: 7vh;
