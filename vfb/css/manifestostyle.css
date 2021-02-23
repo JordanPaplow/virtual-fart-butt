@@ -449,3 +449,13 @@ z-index: 9999;
     
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .topnav a {
+    font-size: 12px;
+  }
+  .fartbutt {
+  font-size:.85em;
+  }
+
+}

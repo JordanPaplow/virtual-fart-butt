@@ -440,15 +440,24 @@ p{
       border-color: lawngreen;
       overflow: hidden;
     } 
-
+    #audio-control {
+      position: fixed;
+      bottom: 5vh;
+      right: 5vw;
+      width: 60px;
+      height: 60px;
+      background: #000000;
+      cursor: pointer;
+      box-shadow: 0 0 10px 0 chartreuse;
+    }
     #audio-control:hover {
       box-shadow: 0 0 10px 0 yellow;
       
     }
     .buttonwrapper{
       position: fixed;
-      bottom:25px;
-      left:30px;
+      bottom:5vh;
+      left:5vw;
       margin-bottom: 0;
       width:75vw;
       display:flex;
@@ -459,10 +468,55 @@ p{
     }
 
     .btn{
-      margin: 10px 10px 5px;
+      margin: 2vw 2vw 0 2vw;
       background-color: black;
       color:chartreuse;
       height:auto;
       width:100px;
     }
+  
+}
+
+@media only screen and (max-width: 360px) {
+  .topnav a {
+    font-size: 12px;
+  }
+  .fartbutt {
+  font-size:.85em;
+  }
+  #audio-control {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    width: 60px;
+    height: 60px;
+    background: #000000;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 chartreuse;
+  }
+  #audio-control:hover {
+    box-shadow: 0 0 10px 0 yellow;
+    
+  }
+  .buttonwrapper{
+    position: fixed;
+    bottom:5vh;
+    left:5vw;
+    margin-bottom: 0;
+    width:75vw;
+    display:flex;
+    flex-wrap: wrap;
+    font-size: .02em;
+    justify-content: left;
+  
+  }
+
+  .btn{
+    margin: 2vw 2vw 0 2vw;
+    background-color: black;
+    color:chartreuse;
+    height:auto;
+    width:100px;
+  }
+
 }
