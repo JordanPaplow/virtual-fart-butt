@@ -68,9 +68,11 @@ p{
   height: 60px;
   background: #000000;
   cursor: pointer;
+  box-shadow: 0 0 10px 0 chartreuse;
 }
 #audio-control:hover {
-  box-shadow: 0 0 10px 0 chartreuse;
+  box-shadow: 0 0 20px 0 yellow;
+  
 }
 
 #audio-control span.bar {
@@ -348,5 +350,10 @@ z-index: 9999;
         border-color: lawngreen;
         overflow: hidden;
       } 
+
+      #audio-control:hover {
+        box-shadow: 0 0 10px 0 chartreuse;
+        
+      }
 
 }

@@ -2,56 +2,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-    outline: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 body{
-    background-color: black;
-    background-image:url(../images/background.gif);
-    background-repeat: repeat;
-    color:rgb(142, 255, 37);
-    font-family: 'IBM Plex Mono', monospace;   
+  background-color: black;
+  background-image:url(../images/background.gif);
+  background-repeat: repeat;
+  color:rgb(142, 255, 37);
+  font-family: 'IBM Plex Mono', monospace;   
 }
 
 .topnav {
-    background-color: rgb(0, 0, 0);
-    border-style:double;
-    border-color: lawngreen;
-    overflow: hidden;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: rgb(179, 255, 0);
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #1f4e20;
-    color: white;
-  }
+  background-color: rgb(0, 0, 0);
+  border-style:double;
+  border-color: lawngreen;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(179, 255, 0);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1f4e20;
+  color: white;
+}
 
 .buttlord {
-    display: block;
-    text-align: center;
-    padding-top: 50px;
-    animation: butt 3s ease-in-out infinite alternate;
-    transform-origin: top;
-    transform-origin: center;
-    transform-box: fill-box;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  animation: butt 3s ease-in-out infinite alternate;
+  transform-origin: top;
+  transform-origin: center;
+  transform-box: fill-box;
 }
 
 #poke-me {
@@ -65,10 +65,9 @@ p{
     text-align: center;
 }
 
-
 .booty{
-    width:30vw;
-    height:auto;
+    width:auto;
+    height:40vh;
 }
 
 .booty { transition: all .2s ease-in-out; }
@@ -76,24 +75,73 @@ p{
 
 @keyframes butt {
 
-    from{
-    transform: translateY(0%)
-    }
+  from{
+  transform: translateY(0%)
+  }
 
-    to{
-    transform: translateY(10%)
-    }
+  to{
+  transform: translateY(10%)
+  }
 
 }
 
 #lasergrid{
-    position: absolute;
-    top:0;
-    z-index: -1;
-    height:100vh;
-    width:100vw;
+  position: absolute;
+  top:0;
+  z-index: -1;
+  height:100vh;
+  width:100vw;
 }
+/*-----button----------*/
+.buttonwrapper{
+  margin: 20vh auto;
+  width:50vw;
+  display:flex;
+  justify-content: center;
 
+}
+.btn{
+  margin: 0 5px;
+  background-color: chartreuse;
+  height: 50px;
+  border-style: solid;
+  border-width: 4px;
+  border-left-color: rgb(186, 255, 116);
+  border-top-color:  rgb(186, 255, 116);
+  border-bottom-color: rgb(69, 138, 0);
+  border-right-color: rgb(69, 138, 0);
+  box-shadow: 0px 0px 15px 0px black;
+  color:black;
+}
+.in_btn{
+  padding: 15px;
+  text-align:center;
+  font-family: 'Press Start 2P', cursive;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  
+}
+.btn:hover{
+  background-color: black;
+  color: chartreuse;
+  cursor: pointer;
+}
+.btn:active{
+  background-color: chartreuse;
+  height: 50px;
+  width: 10vw;
+  border-style: solid;
+  border-width: 4px;
+  border-left-color: rgb(186, 255, 116);
+  border-top-color:  rgb(186, 255, 116);
+  border-bottom-color: rgb(69, 138, 0);
+  border-right-color: rgb(69, 138, 0);
+  box-shadow: 0px 0px 15px 0px black;
+  color:black;
+}
 
 /*audio Controler------*/
 
@@ -105,9 +153,11 @@ p{
   height: 60px;
   background: #000000;
   cursor: pointer;
+  box-shadow: 0 0 10px 0 chartreuse;
 }
 #audio-control:hover {
-  box-shadow: 0 0 10px 0 chartreuse;
+  box-shadow: 0 0 20px 0 yellow;
+  
 }
 
 #audio-control span.bar {
@@ -138,41 +188,41 @@ p{
 }
 
 #backgroundaudio {
-display: block;
-position: fixed;
-bottom: -43px;
-left: 5px;
--webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;
+  display: block;
+  position: fixed;
+  bottom: -43px;
+  left: 5px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 #backgroundaudio:hover {
-bottom: 0;
--webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;
-}
+  bottom: 0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  }
 #backgroundaudio audio {
-background: #ffffff;
-padding: 5px;
-display: table-cell;
-vertical-align: middle;
-height: 43px;
-z-index: 9998;
+  background: #ffffff;
+  padding: 5px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 43px;
+  z-index: 9998;
 }
 #backgroundaudio i {
-font-size: 40px;
-display: block;
-background: #ffffff;
-padding: 5px;
-width: 50px;
-float: none;
-margin-bottom: -1px;
-z-index: 9999;
+  font-size: 40px;
+  display: block;
+  background: #ffffff;
+  padding: 5px;
+  width: 50px;
+  float: none;
+  margin-bottom: -1px;
+  z-index: 9999;
 }
 
 @keyframes barMotion {
@@ -184,211 +234,235 @@ z-index: 9999;
 /*-------------Fart-Butt Text Effect---------------*/
 
 .fartbutt {
-    margin-top: 5vh;
-    text-align: center;
-    background-image: radial-gradient(
-      ellipse 30% 35% at 50% 50%,
-      #666b18,
-      transparent
-    );
-    letter-spacing: .25em;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 2em;
-    color: #7bff00;
-    text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff565,
-      -0.2rem 0.1rem 1rem #91ff65, 0.2rem 0.1rem 1rem #fff565,
-      0 -0.5rem 2rem #62ff24, 0 0.5rem 3rem #57ff24;
-    animation: shine 2s forwards, flicker 3s infinite;
-  }
-  
-  @keyframes blink {
-    0%,
-    22%,
-    36%,
-    75% {
-      color: #ffffe6;
-      text-shadow: 0 0 0.6rem #51ff00, 0 0 1.5rem #f5ff65,
-        -0.2rem 0.1rem 1rem #366122, 0.2rem 0.1rem 1rem #2c6624,
-        0 -0.5rem 2rem #249120, 0 0.5rem 3rem #2fad35;
-    }
-    28%,
-    33% {
-      color: #afff65;
-      text-shadow: none;
-    }
-    82%,
-    97% {
-      color: #2bff24;
-      text-shadow: none;
-    }
-  }
-  
-  @keyframes shine {
-    0% {
-      color: #6b5c18;
-      text-shadow: none;
-    }
-    100% {
-      color: #fdffe6;
-      text-shadow: 0 0 0.6rem #51ff00, 0 0 1.5rem #f5ff65,
-        -0.2rem 0.1rem 1rem #366122, 0.2rem 0.1rem 1rem #2c6624,
-        0 -0.5rem 2rem #249120, 0 0.5rem 3rem #2fad35;
-    }
-  }
-  
-  @keyframes flicker {
-    from {
-      opacity: 1;
-    }
-  
-    4% {
-      opacity: 0.9;
-    }
-  
-    6% {
-      opacity: 0.85;
-    }
-  
-    8% {
-      opacity: 0.95;
-    }
-  
-    10% {
-      opacity: 0.9;
-    }
-  
-    11% {
-      opacity: 0.922;
-    }
-  
-    12% {
-      opacity: 0.9;
-    }
-  
-    14% {
-      opacity: 0.95;
-    }
-  
-    16% {
-      opacity: 0.98;
-    }
-  
-    17% {
-      opacity: 0.9;
-    }
-  
-    19% {
-      opacity: 0.93;
-    }
-  
-    20% {
-      opacity: 0.99;
-    }
-  
-    24% {
-      opacity: 1;
-    }
-  
-    26% {
-      opacity: 0.94;
-    }
-  
-    28% {
-      opacity: 0.98;
-    }
-  
-    37% {
-      opacity: 0.93;
-    }
-  
-    38% {
-      opacity: 0.5;
-    }
-  
-    39% {
-      opacity: 0.96;
-    }
-  
-    42% {
-      opacity: 1;
-    }
-  
-    44% {
-      opacity: 0.97;
-    }
-  
-    46% {
-      opacity: 0.94;
-    }
-  
-    56% {
-      opacity: 0.9;
-    }
-  
-    58% {
-      opacity: 0.9;
-    }
-  
-    60% {
-      opacity: 0.99;
-    }
-  
-    68% {
-      opacity: 1;
-    }
-  
-    70% {
-      opacity: 0.9;
-    }
-  
-    72% {
-      opacity: 0.95;
-    }
-  
-    93% {
-      opacity: 0.93;
-    }
-  
-    95% {
-      opacity: 0.95;
-    }
-  
-    97% {
-      opacity: 0.93;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-  /*----------------------------*/
+  margin-top: 5vh;
+  text-align: center;
+  background-image: radial-gradient(
+    ellipse 30% 35% at 50% 50%,
+    #666b18,
+    transparent
+  );
+  letter-spacing: .25em;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  color: #7bff00;
+  text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff565,
+    -0.2rem 0.1rem 1rem #91ff65, 0.2rem 0.1rem 1rem #fff565,
+    0 -0.5rem 2rem #62ff24, 0 0.5rem 3rem #57ff24;
+  animation: shine 2s forwards, flicker 3s infinite;
+}
 
-  @media only screen and (max-width: 768px) {
+@keyframes blink {
+  0%,
+  22%,
+  36%,
+  75% {
+    color: #ffffe6;
+    text-shadow: 0 0 0.6rem #51ff00, 0 0 1.5rem #f5ff65,
+      -0.2rem 0.1rem 1rem #366122, 0.2rem 0.1rem 1rem #2c6624,
+      0 -0.5rem 2rem #249120, 0 0.5rem 3rem #2fad35;
+  }
+  28%,
+  33% {
+    color: #afff65;
+    text-shadow: none;
+  }
+  82%,
+  97% {
+    color: #2bff24;
+    text-shadow: none;
+  }
+}
 
-    .booty{
-        margin-top: 5vh;
-        width:80vw;
-        height:auto;
-    }
+@keyframes shine {
+  0% {
+    color: #6b5c18;
+    text-shadow: none;
+  }
+  100% {
+    color: #fdffe6;
+    text-shadow: 0 0 0.6rem #51ff00, 0 0 1.5rem #f5ff65,
+      -0.2rem 0.1rem 1rem #366122, 0.2rem 0.1rem 1rem #2c6624,
+      0 -0.5rem 2rem #249120, 0 0.5rem 3rem #2fad35;
+  }
+}
 
-    .fartbutt {
-        margin-top: 7vh;
-        text-align: center;
-        background-image: radial-gradient(
-          ellipse 70% 35% at 50% 50%,
-          #666b18,
-          transparent
-        );
-        letter-spacing: .15em;
-        font-size: 1em;
-      }  
+@keyframes flicker {
+  from {
+    opacity: 1;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  6% {
+    opacity: 0.85;
+  }
+
+  8% {
+    opacity: 0.95;
+  }
+
+  10% {
+    opacity: 0.9;
+  }
+
+  11% {
+    opacity: 0.922;
+  }
+
+  12% {
+    opacity: 0.9;
+  }
+
+  14% {
+    opacity: 0.95;
+  }
+
+  16% {
+    opacity: 0.98;
+  }
+
+  17% {
+    opacity: 0.9;
+  }
+
+  19% {
+    opacity: 0.93;
+  }
+
+  20% {
+    opacity: 0.99;
+  }
+
+  24% {
+    opacity: 1;
+  }
+
+  26% {
+    opacity: 0.94;
+  }
+
+  28% {
+    opacity: 0.98;
+  }
+
+  37% {
+    opacity: 0.93;
+  }
+
+  38% {
+    opacity: 0.5;
+  }
+
+  39% {
+    opacity: 0.96;
+  }
+
+  42% {
+    opacity: 1;
+  }
+
+  44% {
+    opacity: 0.97;
+  }
+
+  46% {
+    opacity: 0.94;
+  }
+
+  56% {
+    opacity: 0.9;
+  }
+
+  58% {
+    opacity: 0.9;
+  }
+
+  60% {
+    opacity: 0.99;
+  }
+
+  68% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.9;
+  }
+
+  72% {
+    opacity: 0.95;
+  }
+
+  93% {
+    opacity: 0.93;
+  }
+
+  95% {
+    opacity: 0.95;
+  }
+
+  97% {
+    opacity: 0.93;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+/*----------------------------*/
+
+@media only screen and (max-width: 768px) {
+
+  .booty{
+      margin-top: 5vh;
+      width:80vw;
+      height:auto;
+  }
+
+  .fartbutt {
+      margin-top: 7vh;
+      text-align: center;
+      background-image: radial-gradient(
+        ellipse 70% 35% at 50% 50%,
+        #666b18,
+        transparent
+      );
+      letter-spacing: .15em;
+      font-size: 1em;
+    }  
+    
+    .topnav a{
+      background-color: rgb(0, 0, 0);
+      font-size: 1em;
+      border-style:none;
+      border-color: lawngreen;
+      overflow: hidden;
+    } 
+
+    #audio-control:hover {
+      box-shadow: 0 0 10px 0 yellow;
       
-      .topnav a{
-        background-color: rgb(0, 0, 0);
-        font-size: 1em;
-        border-style:none;
-        border-color: lawngreen;
-        overflow: hidden;
-      } 
+    }
+    .buttonwrapper{
+      position: fixed;
+      bottom:25px;
+      left:30px;
+      margin-bottom: 0;
+      width:75vw;
+      display:flex;
+      flex-wrap: wrap;
+      font-size: .02em;
+      justify-content: left;
+    
+    }
 
+    .btn{
+      margin: 10px 10px 5px;
+      background-color: black;
+      color:chartreuse;
+      height:auto;
+      width:100px;
+    }
 }

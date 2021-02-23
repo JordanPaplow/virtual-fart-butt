@@ -121,6 +121,10 @@ h2{
   color:yellow;
 }
 
+#fallencomrades{
+  color:yellow;
+}
+
 /*audio Controler------*/
 
 #audio-control {
@@ -131,9 +135,11 @@ h2{
   height: 60px;
   background: #000000;
   cursor: pointer;
+  box-shadow: 0 0 10px 0 chartreuse;
 }
 #audio-control:hover {
-  box-shadow: 0 0 10px 0 chartreuse;
+  box-shadow: 0 0 20px 0 yellow;
+  
 }
 
 #audio-control span.bar {
@@ -389,32 +395,57 @@ z-index: 9999;
   }
   /*----------------------------*/
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
-    .booty{
-        margin-top: 5vh;
-        width:80vw;
-        height:auto;
-    }
+  .booty{
+      margin-top: 5vh;
+      width:80vw;
+      height:auto;
+  }
 
-    .fartbutt {
-        margin-top: 7vh;
-        text-align: center;
-        background-image: radial-gradient(
-          ellipse 70% 35% at 50% 50%,
-          #666b18,
-          transparent
-        );
-        letter-spacing: .15em;
-        font-size: 1em;
-      }  
-      
-      .topnav a{
-        background-color: rgb(0, 0, 0);
-        font-size: 1em;
-        border-style:none;
-        border-color: lawngreen;
-        overflow: hidden;
-      } 
+  .fartbutt {
+    margin-top: 7vh;
+    text-align: center;
+    background-image: radial-gradient(
+      ellipse 70% 35% at 50% 50%,
+      #666b18,
+      transparent
+    );
+    letter-spacing: .15em;
+    font-size: 1em;
+  }  
+  
+  .topnav a{
+    background-color: rgb(0, 0, 0);
+    font-size: 1em;
+    border-style:none;
+    border-color: lawngreen;
+    overflow: hidden;
+  } 
+  .container{
+    display: block;
+    margin:7vh auto;
+    border-color: rgb(142, 255, 37);
+    border-style: double;
+    background-color: rgb(0, 0, 0);
+    width:90vw;
+    height:55vh;
+    padding:50px;
+    line-height: 1.75em;
+    overflow-y: scroll;
+  }
 
+  h1{
+    font-size:medium;
+  }
+  p {
+    padding-top: 5vh;
+    font-size: medium;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  #audio-control:hover {
+    box-shadow: 0 0 10px 0 chartreuse;
+    
+  }
 }

@@ -212,9 +212,11 @@ h2{
   height: 60px;
   background: #000000;
   cursor: pointer;
+  box-shadow: 0 0 10px 0 chartreuse;
 }
 #audio-control:hover {
-  box-shadow: 0 0 10px 0 chartreuse;
+  box-shadow: 0 0 20px 0 yellow;
+  
 }
 
 #audio-control span.bar {
@@ -468,32 +470,97 @@ z-index: 9999;
   }
   /*----------------------------*/
 
-  @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
-    .booty{
-        margin-top: 5vh;
-        width:80vw;
-        height:auto;
-    }
+  .booty{
+      margin-top: 5vh;
+      width:80vw;
+      height:auto;
+  }
 
-    .fartbutt {
-        margin-top: 7vh;
-        text-align: center;
-        background-image: radial-gradient(
-          ellipse 70% 35% at 50% 50%,
-          #666b18,
-          transparent
-        );
-        letter-spacing: .15em;
-        font-size: 1em;
-      }  
-      
-      .topnav a{
-        background-color: rgb(0, 0, 0);
-        font-size: 1em;
-        border-style:none;
-        border-color: lawngreen;
-        overflow: hidden;
-      } 
+  .fartbutt {
+    margin-top: 7vh;
+    text-align: center;
+    background-image: radial-gradient(
+      ellipse 70% 35% at 50% 50%,
+      #666b18,
+      transparent
+    );
+    letter-spacing: .15em;
+    font-size: 1em;
+  }  
+  
+  .topnav a{
+    background-color: rgb(0, 0, 0);
+    font-size: 1em;
+    border-style:none;
+    border-color: lawngreen;
+    overflow: hidden;
+  } 
+
+  .box{
+    display: block;
+    margin:7vh auto;
+    border-color: rgb(142, 255, 37);
+    border-style: double;
+    background-color: rgb(0, 0, 0);
+    width:90vw;
+    height:55vh;
+    padding:50px;
+    line-height: 1.75em;
+    overflow-y: scroll;
+    
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select[name="features"] {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    margin: 0.7rem 0rem;
+    border-radius: 5px;
+  }
+
+  label[for="name"],
+  label[for="email"],
+  label[for="age"] {
+    font-size: small;
+  }
+  .almostlabel {
+    font-size: small;
+    padding: 3vh 0 3vh 0;
+    ;
+  }
+  .questions {
+    margin: 0 auto 0.5rem auto;
+    padding: 0.1rem;
+  }
+
+  select,
+  option,
+  #openfeedback {
+    color:white;
+    font-family:'IBM Plex Mono', monospace;  
+  }
+  textarea {
+    min-height: 120px;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    resize: vertical;
+    background-color: black;
+    border-color: darkgreen;
+  }
+.radiocontainer{
+  font-size: small;
+}
+
+#audio-control:hover {
+  box-shadow: 0 0 10px 0 chartreuse;
+  
+}
 
 }
