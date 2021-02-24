@@ -554,14 +554,14 @@ z-index: 9999;
     background-color: black;
     border-color: darkgreen;
   }
-.radiocontainer{
-  font-size: small;
-}
+  .radiocontainer{
+    font-size: small;
+  }
 
-#audio-control:hover {
-  box-shadow: 0 0 10px 0 chartreuse;
-  
-}
+  #audio-control:hover {
+    box-shadow: 0 0 10px 0 chartreuse;
+    
+  }
 
 }
 

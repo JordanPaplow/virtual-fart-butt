@@ -94,7 +94,7 @@ p{
 }
 /*-----button----------*/
 .buttonwrapper{
-  margin: 20vh auto;
+  margin: 20vh auto 0 auto;
   width:50vw;
   display:flex;
   justify-content: center;
@@ -132,7 +132,6 @@ p{
 .btn:active{
   background-color: chartreuse;
   height: 50px;
-  width: 10vw;
   border-style: solid;
   border-width: 4px;
   border-left-color: rgb(186, 255, 116);
