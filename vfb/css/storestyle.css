@@ -58,6 +58,21 @@ p{
     width:100vw;
 }
 
+.box{
+    display: block;
+    margin:10vh auto;
+    border-color: rgb(142, 255, 37);
+    border-style: double;
+    background-color: rgb(0, 0, 0);
+    width:50vw;
+    height:60vh;
+    padding:50px;
+    line-height: 1.75em;
+    overflow-y: scroll;
+    
+  }
+  
+
 /*audio Controler------*/
 
 #audio-control {
