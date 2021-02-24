@@ -116,7 +116,7 @@ p{
 .in_btn{
   padding: 15px;
   text-align:center;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
   user-select: none;
   -moz-user-select: none;
   -khtml-user-select: none;
@@ -241,7 +241,7 @@ p{
     transparent
   );
   letter-spacing: .25em;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
   font-size: 2em;
   color: #7bff00;
   text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff565,

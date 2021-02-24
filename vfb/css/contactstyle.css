@@ -103,7 +103,7 @@ p{
   margin:10vh auto;
   border-color: rgb(142, 255, 37);
   border-style: double;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0,0.75);
   width:50vw;
   height:60vh;
   padding:50px;
@@ -113,7 +113,7 @@ p{
 }
 
 h1{
-  font-family:'Press Start 2P', cursive;
+  font-family:'Press Start 2P', 'Courier New', Courier, monospace;
   font-size: x-large;
   text-align: center;
   color:white;
@@ -299,7 +299,7 @@ z-index: 9999;
       transparent
     );
     letter-spacing: .25em;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
     font-size: 2em;
     color: #7bff00;
     text-shadow: 0 0 0.6rem #fffde6, 0 0 1.5rem #fff565,
