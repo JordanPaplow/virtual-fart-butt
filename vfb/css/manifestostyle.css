@@ -104,6 +104,7 @@ p{
   padding:50px;
   line-height: 1.75em;
   overflow-y: scroll;
+  scrollbar-highlight-color: chartreuse;
 }
 
 h1{
