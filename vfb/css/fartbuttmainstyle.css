@@ -29,7 +29,7 @@ body{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 11px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -42,6 +42,12 @@ body{
 .topnav a.active {
   background-color: #1f4e20;
   color: white;
+}
+
+#navinstruct{
+  text-align:right;
+  padding: 14px 16px;
+  font-size: small;
 }
 
 .buttlord {
@@ -68,6 +74,10 @@ p{
 .booty{
     width:auto;
     height:40vh;
+}
+
+#instructions{
+  display:none;
 }
 
 .booty { transition: all .2s ease-in-out; }
@@ -483,6 +493,18 @@ p{
       color:chartreuse;
       height:auto;
       width:100px;
+    }
+
+    #navinstruct{
+      display: none;
+    }
+
+    #instructions{
+      display:block;
+      text-align: center;
+      font-size: small;
+      margin-top: 2vh;
+      width:100vw;
     }
   
 }
