@@ -1,11 +1,34 @@
-//Turns background audio on and off
+/*//Turns background audio on and off
 $("#audio-control").click(function () {
   if ($("#background")[0].volume != 0) {
     $("#background")[0].volume = 0
   } else {
     $("#background")[0].volume = 1
   }
-})
+})*/
+
+var audioPlaying = false,
+	audio
+
+	(function() {
+	audio = document.getElementById('audio');
+
+	var audioControl = document.getElementById('audio-control');
+	audioControl.addEventListener('click', audioControlHandler, false)
+}())
+
+function audioControlHandler(e) {
+	var _self = e.target;
+
+	if (!audioPlaying) {
+		_self.classList.add('noVolume')
+		audio.volume = 0
+	} else {
+		_self.classList.remove('noVolume')
+		audio.volume = 1
+	}
+	audioPlaying = !audioPlaying
+}
 
 // global variables for souce and player
 let sourceUrl = "audio/fart-classic.mp3"
