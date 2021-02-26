@@ -9,7 +9,6 @@ function StopSound(soundobj) {
     thissound.currentTime = 0;
 }
 
-
 var audioPlaying = false,
 	audio
 

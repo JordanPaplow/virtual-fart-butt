@@ -11,117 +11,118 @@
     <meta property="og:url" content="https://jordanpaplow.github.io/virtual-fart-butt/vfb/fartbuttmain.html">
     <meta name="twitter:card" content="summary_large_image">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/contactstyle.css" />
+    <link rel="stylesheet" href="css/fartbuttsubstyle.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
-    <div class="topnav">
-        <a href="fartbuttmain.html">Home</a>
-        <a class="active"  href="contact.html">Contact</a>
-        <a href="manifesto.html">Manifesto</a>
-        <a href="store.html">Store</a>
+  <div class="topnav">
+      <a href="fartbuttmain.html">Home</a>
+      <a class="active"  href="contact.html">Contact</a>
+      <a href="manifesto.html">Manifesto</a>
+      <a href="store.html">Store</a>
+    </div>
+
+  <div class="fartbutt">
+      CONTACT
+  </div>
+
+  <img src= "images/grid.png" id="lasergrid">
+  
+  <div class="box">
+      <form action="https://getsimpleform.com/messages?form_api_token=34bf7d1c312093a166fe1b82e51ac75b" method="post" id="survey-form">
+        <input type='hidden' name='redirect_to' value="https://jordanpaplow.github.io/virtual-fart-butt/vfb/contactsubmitted.html" />
+      <div class="questions">
+        <label for="name">Personal Designation</label><br />
+        <input
+          type="text"
+          id="name-label"
+          class="inputcontainer"
+          name="name"
+          placeholder="Enter name, serial number or genome digits "
+        /><br />
       </div>
-
-    <div class="fartbutt">
-        CONTACT
-    </div>
-
-    <img src= "images/grid.png" id="lasergrid">
-    
-    <div class="box">
-        <form action="https://getsimpleform.com/messages?form_api_token=34bf7d1c312093a166fe1b82e51ac75b" method="post" id="survey-form">
-          <input type='hidden' name='redirect_to' value="https://jordanpaplow.github.io/virtual-fart-butt/vfb/contactsubmitted.html" />
-        <div class="questions">
-          <label for="name">Personal Designation</label><br />
-          <input
-            type="text"
-            id="name-label"
-            class="inputcontainer"
-            name="name"
-            placeholder="Enter name, serial number or genome digits "
-          /><br />
-        </div>
-        <div class="questions">
-          <label for="email">Communication Channel</label><br />
-          <input
-            type="email"
-            id="email-label"
-            class="inputcontainer"
-            name="email"
-            placeholder="Enter email, hive-mind link, or COM designation"
-          /><br />
-        </div>
-        <div class="questions">
-          <label for="age">Age Statement</label><br />
-          <input
-            type="number"
-            id="age-label"
-            class="inputcontainer"
-            name="age"
-            placeholder="Enter your age"
-          /><br />
-        
-          <p class="almostlabel">Will you join the fight against fart supression?</p>
-          <div class="radiocontainer">
-            
-            <label for="definitely"><input type="checkbox" class="input-checkbox" id="definitely" name="will you join?" value="yes"/>Yes</label><br />
-            
-            <label for="maybe"><input type="checkbox" class="input-checkbox" id="maybe" name="will you join?" value="i-dont-know" />I don't know </label><br />
-            
-            <label for="nope"><input type="checkbox" class="input-checkbox" id="Nope" name="will you join?" value="no-ill-blame-the-dog" />No, I'll blame the dog</label><br />
-          </div>
-          <div class="dropdowncontainer">
-              <label for="features" class="almostlabel">Choose your favorite fart simulation</label><br>
-              <select name = "favorite fart:" id="dropdown">
-                <option value="classic-fart">Classic Fart</option>
-                <option value="squeeker-fart">Squeeker Fart</option>
-                <option value="cutie-fart">Cutie Fart</option>
-                <option value="danger-fart">Danger Fart</option>
-              </select>
-          </div>
-          <div class="checkboxcontainer">
-            <p class="almostlabel">What would you like to see improved?</p>
-            
-            <label for="aesthetics"><input type="checkbox" class="input-checkbox" name="improve this feature:" value="aesthetics">Aesthetics</label><br>
-            
-            <label for="gameplay"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="butt-options">Butt Options</label><br>
-            
-            <label for="fartSounds"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="fart-sounds">Fart Sounds</label><br>
-            
-            <label for="music"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="music">Music</label><br>
-            
-            <label for="manifesto"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="manifesto">Manifesto</label><br>
-            
-            <label for="merchandise"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="merchandise">Merchandise</label><br>
-          </div>
-          <div class="textareacontainer">
-              
-              <label for="openfeedback" class="almostlabel"><br>Additional Feedback:</label><br>
-              <textarea id="openfeedback" name="feedback" placeholder="Enter your comment here..."></textarea>
-          </div>
-          <div class="submitcontainer">
-            <button type="submit" id="submitid" class="submit-button">
-                Submit
-            </button>
-          </div>
-        </form>
+      <div class="questions">
+        <label for="email">Communication Channel</label><br />
+        <input
+          type="email"
+          id="email-label"
+          class="inputcontainer"
+          name="email"
+          placeholder="Enter email, hive-mind link, or COM designation"
+        /><br />
       </div>
+      <div class="questions">
+        <label for="age">Age Statement</label><br />
+        <input
+          type="number"
+          id="age-label"
+          class="inputcontainer"
+          name="age"
+          placeholder="Enter your age"
+        /><br />
+      
+        <p class="almostlabel">Will you join the fight against fart supression?</p>
+        <div class="radiocontainer">
+          
+          <label for="definitely"><input type="checkbox" class="input-checkbox" id="definitely" name="will you join?" value="yes"/>Yes</label><br />
+          
+          <label for="maybe"><input type="checkbox" class="input-checkbox" id="maybe" name="will you join?" value="i-dont-know" />I don't know </label><br />
+          
+          <label for="nope"><input type="checkbox" class="input-checkbox" id="Nope" name="will you join?" value="no-ill-blame-the-dog" />No, I'll blame the dog</label><br />
+        </div>
+        <div class="dropdowncontainer">
+            <label for="features" class="almostlabel">Choose your favorite fart simulation</label><br>
+            <select name = "favorite fart:" id="dropdown">
+              <option value="classic-fart">Classic Fart</option>
+              <option value="squeeker-fart">Squeeker Fart</option>
+              <option value="cutie-fart">Cutie Fart</option>
+              <option value="danger-fart">Danger Fart</option>
+            </select>
+        </div>
+        <div class="checkboxcontainer">
+          <p class="almostlabel">What would you like to see improved?</p>
+          
+          <label for="aesthetics"><input type="checkbox" class="input-checkbox" name="improve this feature:" value="aesthetics">Aesthetics</label><br>
+          
+          <label for="gameplay"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="butt-options">Butt Options</label><br>
+          
+          <label for="fartSounds"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="fart-sounds">Fart Sounds</label><br>
+          
+          <label for="music"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="music">Music</label><br>
+          
+          <label for="manifesto"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="manifesto">Manifesto</label><br>
+          
+          <label for="merchandise"><input class="input-checkbox" type="checkbox" name="improve this feature:" value="merchandise">Merchandise</label><br>
+        </div>
+        <div class="textareacontainer">
+            
+            <label for="openfeedback" class="almostlabel"><br>Additional Feedback:</label><br>
+            <textarea id="openfeedback" name="feedback" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="submitcontainer">
+          <button type="submit" id="submitid" class="submit-button">
+              SUBMIT
+          </button>
+        </div>
+      </form>
+  </div>
 
-      <div id="audio-control">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </div>
+  <div id="audio-control">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
 
-    <div id="backgroundaudio">
-        <i class="icon-volume-up"></i>
-        <audio autoplay="true" hidden="true" loop="true" id="audio">
-         <source src="audio/techno2.mp3" type="audio/mpeg"></source>
-         Your browser does not support the audio element.
-        </audio>
-    </div>
+  <div id="backgroundaudio">
+    <i class="icon-volume-up"></i>
+    <audio autoplay="true" hidden="true" loop="true" id="audio">
+      <source src="audio/techno2.mp3" type="audio/mpeg"></source>
+      Your browser does not support the audio element.
+    </audio>
+  </div>
 
-    <script src="script/mainscript.js"></script>
+  <script src="script/mainscript.js"></script>
+  
 </body>
 </html>

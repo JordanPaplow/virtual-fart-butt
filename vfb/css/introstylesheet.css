@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 *{
     margin: 0;
@@ -12,18 +13,26 @@
 body{
     background-color: black;
     color:rgb(142, 255, 37);
-    font-family: 'IBM Plex Mono', monospace;   
+    font-family: 'IBM Plex Mono', monospace;  
+    background-image: url(../images/background.gif); 
+    background-repeat: repeat;
 }
 
+#introbody{
+    background-image: none;
+}
 a{
     color: yellow;
-    text-decoration:underline
+    text-decoration:none;
 }
 
 .skip{
     margin-top:2vh;
     text-align: center;
+    font-family:'Press Start 2P', 'Courier New', Courier, monospace;
+    letter-spacing: .2em;
     font-size: x-small;
+    color:white;
 }
 
 a:visited {
@@ -58,6 +67,11 @@ a:visited {
     text-align: center;
     opacity: 0.0;
     animation: fadein .5s 43s ease-in-out infinite;
+    font-family:'Press Start 2P', 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color:white;
+    letter-spacing: .15em;
+    line-height: 2em;
 }
 
 @keyframes fadein {
@@ -65,7 +79,23 @@ a:visited {
     100% {opacity:1;}
 }
 
+h1{
+    text-align: center;
+    font-family:'Press Start 2P', 'Courier New', Courier, monospace;
+    margin-top:45vh;
+    font-size: 6em;
+}
 
+#securotron{
+    color:red;
+    opacity: 0.0;
+    animation: fadein .001s ease-in infinite
+}
+
+@keyframes fadein {
+    0% {opacity:.75;}
+    100% {opacity:1;}
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -83,5 +113,11 @@ a:visited {
         min-height: 120px;
         margin: 1vh auto 0;
     }  
+
+    h1{
+        text-align: center;
+        margin-top:33vh;
+        font-size: 6em;
+    }
 
 }
