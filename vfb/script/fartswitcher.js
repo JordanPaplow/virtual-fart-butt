@@ -37,6 +37,10 @@ $(".booty").mouseenter(function () {
   player[0].oncanplaythrough = player[0].play()
 })
 
+$(".booty").click(function () {
+  player[0].oncanplaythrough = player[0].play()
+})
+
 // the little function that changes the source and loads it.
 function changeSource(sourceUrl) {
   $("#fart-sound").attr("src", sourceUrl)
