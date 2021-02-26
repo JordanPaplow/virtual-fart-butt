@@ -84,9 +84,6 @@ h1{
     font-family:'Press Start 2P', 'Courier New', Courier, monospace;
     margin-top:45vh;
     font-size: 6em;
-}
-
-#securotron{
     color:red;
     opacity: 0.0;
     animation: fadein .001s ease-in infinite
@@ -116,8 +113,16 @@ h1{
 
     h1{
         text-align: center;
-        margin-top:33vh;
-        font-size: 6em;
+        margin-top:40vh;
+        font-size: 3em;
+        line-height: 1.5em;
+        color:red;
+        animation: fadein .001s ease-in infinite
+    }
+    
+    @keyframes fadein {
+        0% {opacity:.75;}
+        100% {opacity:1;}
     }
 
 }
