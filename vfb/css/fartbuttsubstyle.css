@@ -158,6 +158,10 @@ h2{
   color:yellow;
 }
 
+#fallencomrades{
+  color: yellow;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -545,7 +549,8 @@ z-index: 9999;
     overflow: hidden;
   } 
 
-  .box{
+  .box,
+  .box2{
     display: block;
     margin:7vh auto;
     border-color: rgb(142, 255, 37);

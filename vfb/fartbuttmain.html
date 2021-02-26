@@ -29,27 +29,39 @@
     </div>
     
     <div class="buttlord">
-        <img onmouseover="PlaySound('fart-butt')" onclick="PlaySound('fart-butt')" 
-        onmouseout="StopSound('fart-butt')" src = "images/fart-butt.png" class="booty" id="booty">
+        <img onmouseover="PlaySound('fart-butt-classic')" onclick="PlaySound('fart-butt-classic')" 
+        onmouseout="StopSound('fart-butt-classic')" src = "images/fart-butt.png" class="booty" id="booty">
     </div>
 
-    <audio id="fart-butt">
-        <source src="audio/fart.mp3"></source>
+    <audio id="fart-butt-classic">
+        <source src="audio/fart-classic.mp3"></source>
+    </audio>
+
+    <audio id="fart-butt-classic">
+        <source src="audio/fart-squeeker.mp3"></source>
+    </audio>
+
+    <audio id="fart-butt-classic">
+        <source src="audio/fart-cutie.mp3"></source>
+    </audio>
+    
+    <audio id="fart-butt-classic">
+        <source src="audio/fart-danger.mp3"></source>
     </audio>
 
     <img src= "images/grid.png" id="lasergrid">
 
-    <div class="buttonwrapper">
-        <div class="btn">
+    <div class="buttonwrapper" >
+        <div class="btn-classic" onclick="">
             <div class="in_btn">Classic</div>
         </div>
-        <div class="btn" onclick="">
+        <div class="btn-squeeker" onclick="">
             <div class="in_btn">Squeeker</div>
         </div>
-        <div class="btn" onclick="">
+        <div class="btn-cutie" onclick="">
             <div class="in_btn">Cutie</div>
         </div>
-        <div class="btn" onclick="">
+        <div class="btn-danger" onclick="">
             <div class="in_btn">Danger</div>
         </div>
     </div>
