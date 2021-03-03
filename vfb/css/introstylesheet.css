@@ -21,9 +21,14 @@ body{
 #introbody{
     background-image: none;
 }
+
 a{
-    color: yellow;
+    color: white;
     text-decoration:none;
+}
+
+a:hover{
+    color:chartreuse;
 }
 
 .skip{
@@ -32,7 +37,7 @@ a{
     font-family:'Press Start 2P', 'Courier New', Courier, monospace;
     letter-spacing: .2em;
     font-size: x-small;
-    color:white;
+
 }
 
 a:visited {
@@ -104,12 +109,18 @@ h1{
         height:25vh;
         width:auto;
     }
+
     
     .container {
         width: 75vw;
         min-height: 120px;
-        margin: 1vh auto 0;
+        margin: 3vh auto 0;
     }  
+
+    #enterlink{
+        font-size: x-small;
+        padding-bottom: 5vh;
+    }
 
     h1{
         text-align: center;
@@ -119,6 +130,8 @@ h1{
         color:red;
         animation: fadein .001s ease-in infinite
     }
+
+
     
     @keyframes fadein {
         0% {opacity:.75;}

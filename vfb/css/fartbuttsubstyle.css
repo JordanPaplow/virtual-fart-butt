@@ -91,15 +91,15 @@ p{
 }
 
 #lasergrid{
-    position: absolute;
-    top:0;
-    z-index: -1;
-    height:100vh;
-    width:100vw;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
 }
 
 #submitted{
-  line-height:2em;
+  line-height: 2em;
   color:chartreuse;
   text-align: center;
   margin-top: 20vh;
@@ -108,26 +108,26 @@ p{
 
 .box{
   display: block;
-  margin:10vh auto;
+  margin: 10vh auto;
   border-color: rgb(142, 255, 37);
   border-style: double;
   background-color: rgb(0, 0, 0,0.75);
-  width:50vw;
-  height:60vh;
-  padding:50px;
+  width: 50vw;
+  height: 60vh;
+  padding: 50px;
   line-height: 1.75em;
   overflow-y: scroll;
 }
 
 .box2{
   display: block;
-  margin:10vh auto;
+  margin: 10vh auto;
   border-color: rgb(142, 255, 37);
   border-style: double;
   background-color: rgb(0, 0, 0,0.75);
-  width:50vw;
-  height:60vh;
-  padding:50px;
+  width: 50vw;
+  height: 60vh;
+  padding: 50px;
   line-height: 1.75em;
   overflow-y: scroll;
   scrollbar-highlight-color: chartreuse;
@@ -144,7 +144,7 @@ p{
 
 
 h1{
-  font-family:'Press Start 2P', 'Courier New', Courier, monospace;
+  font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
   font-size: x-large;
   text-align: center;
   color:white;
@@ -253,7 +253,38 @@ textarea {
   font-family:'IBM Plex Mono', monospace;   
 }
 
-    /*audio Controler------*/
+.storeimg{
+  width:10vw;
+  height:10vw;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#storecontainer{
+  display:flex;
+  padding:20px 0 20px 0;
+}
+
+.itemdescription{
+  font-size:small;
+  line-height: 1.5em;
+  padding-left:20px;
+}
+
+.storelabel{
+  color:white;
+  font-family:'Press Start 2P', 'Courier New', Courier, monospace; 
+  font-size: medium;
+  padding-bottom:10px;
+}
+.soldout{
+  padding-top:10px;
+  color:red;
+  font-family:'Press Start 2P', 'Courier New', Courier, monospace; 
+  font-size:small;
+}
+
+/*audio Controler------*/
 
 #audio-control {
   position: fixed;
@@ -265,6 +296,7 @@ textarea {
   cursor: pointer;
   box-shadow: 0 0 10px 0 chartreuse;
 }
+
 #audio-control:hover {
   box-shadow: 0 0 20px 0 yellow;
   
@@ -281,10 +313,12 @@ textarea {
   transition: all 0.25s ease-in;
   animation: barMotion 0.3s ease-out infinite;
 }
+
 #audio-control span.bar:nth-child(2) {
   left: 28px;
   animation-direction: reverse;
 }
+
 #audio-control span.bar:nth-child(3) {
   left: 34px;
   animation-direction: alternate-reverse;
@@ -298,41 +332,44 @@ textarea {
 }
 
 #backgroundaudio {
-display: block;
-position: fixed;
-bottom: -43px;
-left: 5px;
--webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;
+  display: block;
+  position: fixed;
+  bottom: -43px;
+  left: 5px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
+
 #backgroundaudio:hover {
-bottom: 0;
--webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;
+  bottom: 0;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
+
 #backgroundaudio audio {
-background: #ffffff;
-padding: 5px;
-display: table-cell;
-vertical-align: middle;
-height: 43px;
-z-index: 9998;
+  background: #ffffff;
+  padding: 5px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 43px;
+  z-index: 9998;
 }
+
 #backgroundaudio i {
-font-size: 40px;
-display: block;
-background: #ffffff;
-padding: 5px;
-width: 50px;
-float: none;
-margin-bottom: -1px;
-z-index: 9999;
+  font-size: 40px;
+  display: block;
+  background: #ffffff;
+  padding: 5px;
+  width: 50px;
+  float: none;
+  margin-bottom: -1px;
+  z-index: 9999;
 }
 
 @keyframes barMotion {
@@ -541,10 +578,21 @@ z-index: 9999;
     font-size: 1em;
   }  
   
+  .topnav{
+    display: flex;
+    justify-content: center; 
+    padding:5px 0 5px 0;
+  }
+
+  .topnav a.active {
+    background-color:black;
+    color: chartreuse;
+  }
+  
   .topnav a{
     background-color: rgb(0, 0, 0);
     font-size: 1em;
-    border-style:none;
+    border-style: none;
     border-color: lawngreen;
     overflow: hidden;
   } 
@@ -555,10 +603,9 @@ z-index: 9999;
     margin:7vh auto;
     border-color: rgb(142, 255, 37);
     border-style: double;
-    background-color: rgb(0, 0, 0);
-    width:90vw;
-    height:55vh;
-    padding:50px;
+    width: 90vw;
+    height: 55vh;
+    padding: 50px;
     line-height: 1.75em;
     overflow-y: scroll;
     
@@ -615,6 +662,32 @@ z-index: 9999;
     
   }
 
+  #storecontainer{
+    flex-direction: column;  
+  }
+
+  .storeimg{
+    width: 60vw;
+    height: 60vw;
+    margin: 0 auto;
+  }
+
+  .itemdescription{
+    text-align: center;
+    padding-left: 0;
+    padding-top: 8vh;
+  }
+
+  .storelabel{
+    text-align: center;
+    padding-bottom: 3vh;
+  }
+
+  .soldout{
+    text-align: center;
+    padding-top: 3vh;
+  }
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -622,7 +695,7 @@ z-index: 9999;
     font-size: 12px;
   }
   .fartbutt {
-  font-size:.85em;
+  font-size: .85em;
   }
 
 }
