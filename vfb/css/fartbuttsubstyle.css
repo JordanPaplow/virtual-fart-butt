@@ -108,12 +108,12 @@ p{
 
 .box{
   display: block;
-  margin: 10vh auto;
+  margin: 5vh auto;
   border-color: rgb(142, 255, 37);
   border-style: double;
   background-color: rgb(0, 0, 0,0.75);
   width: 50vw;
-  height: 60vh;
+  height: 65vh;
   padding: 50px;
   line-height: 1.75em;
   overflow-y: scroll;
@@ -121,12 +121,12 @@ p{
 
 .box2{
   display: block;
-  margin: 10vh auto;
+  margin: 5vh auto;
   border-color: rgb(142, 255, 37);
   border-style: double;
   background-color: rgb(0, 0, 0,0.75);
   width: 50vw;
-  height: 60vh;
+  height: 65vh;
   padding: 50px;
   line-height: 1.75em;
   overflow-y: scroll;
