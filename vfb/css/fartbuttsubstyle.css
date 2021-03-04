@@ -600,7 +600,7 @@ textarea {
   .box,
   .box2{
     display: block;
-    margin:7vh auto;
+    margin:5vh auto;
     border-color: rgb(142, 255, 37);
     border-style: double;
     width: 90vw;
