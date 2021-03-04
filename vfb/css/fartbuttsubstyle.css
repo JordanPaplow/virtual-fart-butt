@@ -567,7 +567,7 @@ textarea {
   }
 
   .fartbutt {
-    margin-top: 7vh;
+    margin-top: 6vh;
     text-align: center;
     background-image: radial-gradient(
       ellipse 70% 35% at 50% 50%,
@@ -600,7 +600,7 @@ textarea {
   .box,
   .box2{
     display: block;
-    margin:5vh auto;
+    margin:6vh auto;
     border-color: rgb(142, 255, 37);
     border-style: double;
     width: 90vw;
