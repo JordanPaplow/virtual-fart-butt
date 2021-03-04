@@ -681,11 +681,16 @@ textarea {
   .storelabel{
     text-align: center;
     padding-bottom: 3vh;
+    line-height: 1.75em;
   }
 
   .soldout{
     text-align: center;
     padding-top: 3vh;
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size:x-small;
   }
 
 }
