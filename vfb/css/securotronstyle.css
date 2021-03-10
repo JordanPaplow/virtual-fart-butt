@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box; 
 }
 
 body{
@@ -45,7 +46,6 @@ h1{
     border-style: double;
     border-radius: .5em;
     margin:0 auto;
-    padding: none;
 }
 
 .box {
@@ -96,13 +96,13 @@ h1{
         display: grid;
         grid-template-rows: 100px 100px 100px;
         grid-template-columns: 100px 100px 100px;
-        width:303px;
-        height:303px;
+        width:306px;
+        height:306px;
         border-color: red;
         border-style: double;
         border-radius: .5em;
         margin:0 auto;
-        padding: none;
+        padding:0;
     }
     
     .box {

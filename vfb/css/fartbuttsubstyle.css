@@ -6,8 +6,6 @@
     margin: 0;
     padding: 0;
     outline: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box; 
 }
 
@@ -130,7 +128,6 @@ p{
   padding: 50px;
   line-height: 1.75em;
   overflow-y: scroll;
-  scrollbar-highlight-color: chartreuse;
 }
 
 .box2 h1{
@@ -686,10 +683,6 @@ textarea {
   .soldout{
     text-align: center;
     padding-top: 3vh;
-  }
-
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    font-size:x-small;
   }
 
 }
