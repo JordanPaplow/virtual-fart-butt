@@ -24,7 +24,7 @@ body{
 
 a{
     color: white;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a:hover{
@@ -32,12 +32,11 @@ a:hover{
 }
 
 .skip{
-    margin-top:2vh;
+    margin-top: 2vh;
     text-align: center;
     font-family:'Press Start 2P', 'Courier New', Courier, monospace;
     letter-spacing: .2em;
     font-size: x-small;
-
 }
 
 a:visited {
@@ -46,12 +45,11 @@ a:visited {
 
 #introbooty{
     display: block;
-    padding-top:10vh;
-    margin:auto;
-    height:50vh;
-    width:auto;
+    padding-top: 10vh;
+    margin: auto;
+    height: 50vh;
+    width: auto;
 }
-
 
 .container {
     width: 40vw;
@@ -104,13 +102,12 @@ h1{
 
     #introbooty{
         display: block;
-        padding-top:5vh;
-        margin:auto;
-        height:25vh;
-        width:auto;
+        padding-top: 5vh;
+        margin: auto;
+        height: 25vh;
+        width: auto;
     }
 
-    
     .container {
         width: 75vw;
         min-height: 120px;
@@ -124,15 +121,13 @@ h1{
 
     h1{
         text-align: center;
-        margin-top:40vh;
+        margin-top: 40vh;
         font-size: 3em;
         line-height: 1.5em;
         color:red;
         animation: fadein .001s ease-in infinite
     }
 
-
-    
     @keyframes fadein {
         0% {opacity:.75;}
         100% {opacity:1;}

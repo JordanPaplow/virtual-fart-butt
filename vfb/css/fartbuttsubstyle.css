@@ -139,7 +139,6 @@ p{
   text-align: center;
   color:white;
   line-height: 1.75em;
-  
 }
 
 
@@ -147,8 +146,7 @@ h1{
   font-family: 'Press Start 2P', 'Courier New', Courier, monospace;
   font-size: x-large;
   text-align: center;
-  color:white;
-  
+  color:white; 
 }
 
 h2{
@@ -188,7 +186,6 @@ label[for="age"] {
 .almostlabel {
   font-size: 21px;
   padding: 3vh 0 3vh 0;
-  ;
 }
 
 .questions {
@@ -254,34 +251,34 @@ textarea {
 }
 
 .storeimg{
-  width:10vw;
-  height:10vw;
+  width: 10vw;
+  height: 10vw;
   border-style: solid;
   border-width: 1px;
 }
 
 #storecontainer{
-  display:flex;
-  padding:20px 0 20px 0;
+  display: flex;
+  padding: 20px 0 20px 0;
 }
 
 .itemdescription{
-  font-size:small;
+  font-size: small;
   line-height: 1.5em;
-  padding-left:20px;
+  padding-left: 20px;
 }
 
 .storelabel{
   color:white;
   font-family:'Press Start 2P', 'Courier New', Courier, monospace; 
   font-size: medium;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 .soldout{
-  padding-top:10px;
+  padding-top: 10px;
   color:red;
   font-family:'Press Start 2P', 'Courier New', Courier, monospace; 
-  font-size:small;
+  font-size: small;
 }
 
 /*audio Controler------*/
@@ -644,6 +641,7 @@ textarea {
     color:white;
     font-family:'IBM Plex Mono', monospace;  
   }
+
   textarea {
     min-height: 120px;
     width: 100%;
@@ -653,6 +651,7 @@ textarea {
     background-color: black;
     border-color: darkgreen;
   }
+
   .radiocontainer{
     font-size: small;
   }

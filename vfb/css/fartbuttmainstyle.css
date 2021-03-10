@@ -175,9 +175,9 @@ p{
   cursor: pointer;
   box-shadow: 0 0 10px 0 chartreuse;
 }
+
 #audio-control:hover {
   box-shadow: 0 0 20px 0 yellow;
-  
 }
 
 #audio-control span.bar {
@@ -191,10 +191,12 @@ p{
   transition: all 0.25s ease-in;
   animation: barMotion 0.3s ease-out infinite;
 }
+
 #audio-control span.bar:nth-child(2) {
   left: 28px;
   animation-direction: reverse;
 }
+
 #audio-control span.bar:nth-child(3) {
   left: 34px;
   animation-direction: alternate-reverse;
@@ -218,6 +220,7 @@ p{
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
+
 #backgroundaudio:hover {
   bottom: 0;
   -webkit-transition: all 1s ease-in-out;
@@ -226,6 +229,7 @@ p{
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   }
+
 #backgroundaudio audio {
   background: #ffffff;
   padding: 5px;
@@ -234,6 +238,7 @@ p{
   height: 43px;
   z-index: 9998;
 }
+
 #backgroundaudio i {
   font-size: 40px;
   display: block;
@@ -436,8 +441,8 @@ p{
 @media only screen and (max-width: 768px) {
 
   .booty{
-      width:80vw;
-      height:auto;
+      width: 80vw;
+      height: auto;
   }
 
   .fartbutt {
@@ -455,7 +460,7 @@ p{
     .topnav{
       display: flex;
       justify-content: center; 
-      padding:5px 0 5px 0;
+      padding: 5px 0 5px 0;
     }
 
     .topnav a.active {
@@ -527,9 +532,11 @@ p{
   .topnav a {
     font-size: 12px;
   }
+
   .fartbutt {
   font-size:.85em;
   }
+
   #audio-control {
     position: fixed;
     bottom: 5vh;
@@ -540,6 +547,7 @@ p{
     cursor: pointer;
     box-shadow: 0 0 10px 0 chartreuse;
   }
+  
   #audio-control:hover {
     box-shadow: 0 0 10px 0 yellow;
     

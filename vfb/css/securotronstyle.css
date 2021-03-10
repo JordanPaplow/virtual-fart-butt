@@ -39,8 +39,8 @@ h1{
     display: grid;
     grid-template-rows: 200px 200px 200px;
     grid-template-columns: 200px 200px 200px;
-    width:606px;
-    height:606px;
+    width: 606px;
+    height: 606px;
     border-color: red;
     border-style: double;
     border-radius: .5em;
