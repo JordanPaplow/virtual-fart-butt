@@ -257,7 +257,7 @@ textarea {
   border-width: 1px;
 }
 
-#storecontainer{
+.storecontainer{
   display: flex;
   padding: 20px 0 20px 0;
 }
@@ -661,7 +661,7 @@ textarea {
     
   }
 
-  #storecontainer{
+  .storecontainer{
     flex-direction: column;  
   }
 
